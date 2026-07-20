@@ -1,10 +1,6 @@
 # databricks-medallion-lakehouse
 
-> Un Data Lakehouse complet, construit de A à Z sur **Databricks**, en suivant l'**architecture Médaillon** (Bronze / Silver / Gold) — de l'ingestion brute à un modèle en étoile prêt pour la BI.
-
-
-
----
+ Un Data Lakehouse complet, construit de A à Z sur **Databricks**, en suivant l'**architecture Médaillon** (Bronze / Silver / Gold) — de l'ingestion brute à un modèle en étoile prêt pour la BI.
 
 ## 🎯 Aperçu du projet
 
@@ -37,6 +33,7 @@ Le projet suit l'**architecture Médaillon**, un pattern standard de l'industrie
 
 ```
 CRM/ERP CSV  →  Bronze (raw Delta)  →  Silver (clean & validated)  →  Gold (star schema)  →  BI / Analytics
+
 ```
 
 ---
@@ -163,10 +160,3 @@ Le modèle final suit un **schéma en étoile** :
 
 ---
 
-
-
-
-
-**[Ton Nom]**
-
-Projet réalisé dans le cadre du **Databricks Bootcamp 2026**.
