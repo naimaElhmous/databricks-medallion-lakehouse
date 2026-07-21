@@ -21,7 +21,7 @@ Le résultat final est un Lakehouse de style production, réutilisable et prése
 
 Le projet suit l'**architecture Médaillon**, un pattern standard de l'industrie qui organise les données en trois couches de qualité croissante.
 
-![Architecture Médaillon](mg1-medallion.png)
+![Architecture Médaillon](img1-medallion.png)
 
 | Couche | Rôle | Détails |
 |---|---|---|
