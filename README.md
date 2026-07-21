@@ -21,7 +21,7 @@ Le résultat final est un Lakehouse de style production, réutilisable et prése
 
 Le projet suit l'**architecture Médaillon**, un pattern standard de l'industrie qui organise les données en trois couches de qualité croissante.
 
-![Architecture Médaillon](C:\Users\Propriétaire\Downloads\img1-medallion.png)
+![Architecture Médaillon](mg1-medallion.png)
 
 | Couche | Rôle | Détails |
 |---|---|---|
@@ -64,9 +64,6 @@ databricks_bike_lakehouse/
 ├── orchestration/
 │   ├── silver_orchestration.ipynb      # Déclenche tous les notebooks Silver
 │   └── gold_orchestration.ipynb        # Déclenche tous les notebooks Gold
-│
-├── docs/
-│   └── data_model.drawio               # Diagramme du modèle Gold (star schema)
 │
 └── README.md
 ```
